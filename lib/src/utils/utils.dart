@@ -135,7 +135,8 @@ class Utils {
   }
 
   /// True if the earliest allowable month is displayed.
-  static bool isDisplayingFirstMonth(DateTime? firstDate, DateTime selectedDate) {
+  static bool isDisplayingFirstMonth(
+      DateTime? firstDate, DateTime selectedDate) {
     DateTime date = firstDate ?? DateTime(1970);
     return !selectedDate.isAfter(
       DateTime(date.year, date.month),

@@ -19,7 +19,8 @@ class _BasicCalendarState extends State<BasicCalendar> {
       ),
       body: Column(
         children: [
-          Expanded(
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.5,
             child: NepaliCalx(
               initialDate: DateTime.now(),
               firstDate: DateTime(1970),

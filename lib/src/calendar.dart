@@ -76,10 +76,10 @@ class NepaliCalx<T> extends StatefulWidget {
   /// The initially selected [DateTime] that the picker should display.
   final DateTime initialDate;
 
-  /// The earliest date the user is permitted to pick [lastDate].
+  /// The earliest date the user is permitted to pick.
   final DateTime firstDate;
 
-  /// The latest date the user is permitted to pick [firstDate].
+  /// The latest date the user is permitted to pick.
   final DateTime lastDate;
 
   /// The List of holiday dates.
@@ -88,7 +88,7 @@ class NepaliCalx<T> extends StatefulWidget {
   /// List of events assigned to a specified day.
   final List<Event>? events;
 
-  /// Weather Start of the week is [Sunday] or [Monday].
+  /// Whether start of the week is Sunday or Monday.
   final bool mondayWeek;
 
   /// List of days in week to be considered as weekend.

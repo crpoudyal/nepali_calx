@@ -39,7 +39,8 @@ class _DynamicCalendarState extends State<DynamicCalendar> {
       ),
       body: Column(
         children: [
-          Expanded(
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.5,
             child: NepaliCalx(
               initialDate: DateTime.now(),
               calendarType: _calendarType,

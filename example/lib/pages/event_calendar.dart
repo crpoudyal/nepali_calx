@@ -95,7 +95,8 @@ class _EventCalendarState extends State<EventCalendar> {
       ),
       body: Column(
         children: [
-          Expanded(
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.5,
             child: NepaliCalx(
               calendarType: _calendarType,
               initialDate: DateTime.now(),

@@ -1,0 +1,24 @@
+name: calendar_example
+description: Demonstrates how to use the nepali calendar bs ad plugin.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.1 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^2.0.0
+  flutter:
+    sdk: flutter
+  nepali_calx:
+    path: ../
+  nepali_utils: ^3.0.8
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

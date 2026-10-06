@@ -1,0 +1,23 @@
+name: nepali_calx
+description: Flutter package to switch between nepali and english calendar easily and efficently.
+version: 1.0.0
+homepage: https://github.com/crpoudyal/nepali_calx
+repository: https://github.com/crpoudyal/nepali_calx
+issue_tracker: https://github.com/crpoudyal/nepali_calx/issues
+
+environment:
+  sdk: ">=2.19.1 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.3
+  nepali_utils: ^3.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
